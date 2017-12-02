@@ -5,6 +5,6 @@
 
 Antonella Longo教授给学生的原码，希望同学们在此之上挑选Microservice并且改进.
 
-##技术栈
+## 技术栈
 
 原码后端使用python，rethinkDB(已倒闭公司)，前端使用安卓。
