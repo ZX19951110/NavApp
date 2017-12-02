@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="platform_circle_fill">#33ff0000</color>
+    <color name="platform_circle">#ffff0000</color>
+    <color name="ia_blue">#ff00a5f5</color>
+    <color name="miki_printer">#ee6655</color>
+    <color name="nav_welcome">#fffcfbd4</color>
+    <color name="nav_welcome_grad">#ffffcc55</color>
+    <color name="nav_white">#fdfcf0</color>
+    <color name="transparent_cyan">#0000ffff</color>
+    <color name="pink_path">#ffffe3e3</color>
+    <color name="stairs_green">#ff50b950</color>
+</resources>

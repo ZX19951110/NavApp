@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.serviceslab.unipv.librarynavapp">
+
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        android:maxSdkVersion="23" />
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        android:maxSdkVersion="23" />
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        android:maxSdkVersion="23" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.sensor.compass"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.sensor.gyroscope"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_compass"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".classes.activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <meta-data
+            android:name="com.indooratlas.android.sdk.API_KEY"
+            android:value="d0f89819-c57f-424d-b871-49da2353c4a2" />
+
+        <!-- <meta-data
+            android:name="com.indooratlas.android.sdk.API_KEY"
+            android:value="9023ca5f-c4b7-473e-a677-1fbc40e9787e" />-->
+
+
+        <meta-data
+            android:name="com.indooratlas.android.sdk.API_SECRET"
+            android:value="YqS8uHW6AqMxy7ffrlI1bIg2t7X/ZogVhsc/LNXPpR/z7ikJXDESvB90pffdAWYMgw19+YqCmTUOBBgGCErFOuOGiXh/vwoi8mYJbvOu4O2mCkeU8MqCnCn4oTV2YQ==" />
+
+
+        <!--
+            <meta-data
+            android:name="com.indooratlas.android.sdk.API_SECRET"
+            android:value="2pwS8MwU3djSKGoa2PXXDxnuY3zRjcRS1rowPcXXmMSKqzqzcyetChrzu9fzGtPi+S2qeUNc5Zrn/qlaCJwXJBmQrdYi6JrhZEGSyLfaplZVfhC5y5lWv0fMw+L9dg==" />
+-->
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDbCmymk2i5SlSgXqbQqo2KPEcPH7sy1QI" />
+
+        <activity android:name=".classes.activities.MapsActivity" />
+        <activity
+            android:name=".classes.activities.ArmadioInfoActivity"
+            android:label="@string/title_activity_armadio_info" />
+        <activity android:name=".classes.activities.LibraryMapsActivity" />
+        <activity android:name=".classes.activities.ListLibraryActivity" />
+        <activity
+            android:name=".classes.activities.ListArmadioActivity"
+            android:label="@string/title_activity_list_armadio" />
+        <activity
+            android:name=".classes.activities.BookInfoActivity"
+            android:label="@string/title_activity_book_info"></activity>
+    </application>
+
+</manifest>

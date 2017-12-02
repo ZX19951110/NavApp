@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:map="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/mapLinearLayout"
+        android:weightSum="5"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4">
+            <fragment
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                map:cameraTargetLat="45.18732546883948"
+                map:cameraTargetLng="9.157922565937044"
+                map:cameraZoom="20"
+                tools:context="com.serviceslab.unipv.librarynavapp.classes.activities.MapsActivity"
+                android:layout_gravity="center">
+            </fragment>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/buttonDijkstra"
+                    android:layout_gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="dijkstraDistance"
+                    android:background="@drawable/gradientbutton"
+                    android:drawableLeft="@drawable/playbuttonscaled"
+                    android:text="@string/start_navigation_button"
+                    android:textColor="#000000" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/buttonStopNav"
+                    android:layout_gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="arrivedToDestination"
+                    android:background="@drawable/gradientbutton"
+                    android:drawableLeft="@drawable/arrivedbutton"
+                    android:text="@string/arrived_button"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/buttonArmadioInfo"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/gradientbutton"
+                    android:drawableLeft="@drawable/armadioinfobutton"
+                    android:onClick="openArmadioInfo"/>
+                <Button
+                    android:id="@+id/buttoninfobook"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/gradientbutton"
+                    android:drawableLeft="@drawable/bookinfoicon"
+                    android:onClick="openBookInfo"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/progressBarMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/arrivedUpstairsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradientbutton"
+        android:textColor="#000000"
+        android:text="@string/arrived_upstairs"
+        android:drawableLeft="@drawable/arrivedupstairs"
+        android:visibility="invisible"
+        android:onClick="arrivedToNextFloor"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/arrivedDownstairsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/gradientbutton"
+        android:textColor="#000000"
+        android:onClick="arrivedToNextFloor"
+        android:text="@string/arrived_downstairs"
+        android:visibility="invisible"
+        android:drawableLeft="@drawable/arriveddownstairs"/>
+
+
+</RelativeLayout>
+
