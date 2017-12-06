@@ -1,0 +1,1 @@
+{"db": {"id": "41296509-8ca8-4fd4-beaa-342feeb666c7", "name": "LibraryDB", "type": "DB"}, "doc_count_estimates": [9], "id": "9c2b0f4b-0043-4550-8754-a82a39fc2a83", "indexes": [], "name": "operation_type", "primary_key": "id", "type": "TABLE"}

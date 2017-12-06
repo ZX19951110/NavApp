@@ -1,0 +1,5 @@
+[
+{"address": "Via Adolfo Ferrata 1, Pavia, 27100, Lombardia, Italia", "codice_biblioteca": "ROBOLAB", "email": "robolab@robolab.it", "ia_id": "363ea9ad-acc1-4d02-9bf3-6417fe4de692", "id": "55b06e3f-ea54-4516-95a5-ca88d39fa861", "latitude": "45.2017861", "longitude": "9.1398739", "name": "Laboratorio di Robotica e Computer Services", "telephone": "0382-984447"},
+{"address": "Corso Carlo Alberto 3, Pavia, 27100, Lombardia, Italia", "codice_biblioteca": "PAV0U4", "email": "biblioteca.scienzepolitiche@unipv.it", "ia_id": "53d0fd3a-ce4a-431d-a36c-1ad1c10c2ef5", "id": "6050a63b-f44f-4a40-9df7-bbeb5ebcb158", "latitude": "45.1875542", "longitude": "9.1569417", "name": "Biblioteca Scienze Politiche", "telephone": "0382-984447"},
+{"address": "Corso Carlo Alberto 3, Pavia, 27100, Lombardia, Italia", "codice_biblioteca": "PAV0U4", "email": "biblioteca.scienzepolitiche@unipv.it", "ia_id": "a9d5d94c-a515-4e88-afe6-fe0a301716f0", "id": "7b7a36ff-5294-48ba-9a45-421952c050e9", "latitude": "45.1875542", "longitude": "9.1569417", "name": "Biblioteca Scienze Politiche, Soppalco", "telephone": "0382-984447"}
+]

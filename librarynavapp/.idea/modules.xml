@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LibraryNavApp.iml" filepath="$PROJECT_DIR$/LibraryNavApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/librarynavapp.iml" filepath="$PROJECT_DIR$/librarynavapp.iml" />
     </modules>
   </component>
 </project>

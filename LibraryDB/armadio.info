@@ -1,0 +1,1 @@
+{"db": {"id": "41296509-8ca8-4fd4-beaa-342feeb666c7", "name": "LibraryDB", "type": "DB"}, "doc_count_estimates": [70], "id": "91613052-9ba8-4c04-b7e1-e2b8e0e3e98a", "indexes": [], "name": "armadio", "primary_key": "id", "type": "TABLE"}

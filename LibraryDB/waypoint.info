@@ -1,0 +1,1 @@
+{"db": {"id": "41296509-8ca8-4fd4-beaa-342feeb666c7", "name": "LibraryDB", "type": "DB"}, "doc_count_estimates": [100], "id": "c7f82821-b6b3-4e53-b7f6-293c9d6ed6ce", "indexes": [], "name": "waypoint", "primary_key": "id", "type": "TABLE"}

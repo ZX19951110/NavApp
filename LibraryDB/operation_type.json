@@ -1,0 +1,7 @@
+[
+{"code": "T", "description": "trasferimento (movement)", "id": "47779008-e2c5-46a2-b680-c94a1ed47d58"},
+{"code": "S", "description": "store", "id": "72d6c65d-50f5-44be-b65b-18a59e19689d"},
+{"code": "I", "description": "inventario (inventory)", "id": "a2a32573-ce7f-4310-bae5-430b0317a275"},
+{"code": "P", "description": "prelievo (pick)", "id": "d990a290-a942-46dc-a0bd-3982f514b401"},
+{"code": "Q", "description": "interrogazione (query)", "id": "f862c5cc-a010-4f4c-b0d9-2fe89b973004"}
+]
