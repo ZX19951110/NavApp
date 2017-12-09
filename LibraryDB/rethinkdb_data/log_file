@@ -1,0 +1,93 @@
+2017-12-06T20:29:07.086467883 0.004810s notice: Recursively removing directory /home/zhanxu/work/NavApp/LibraryDB/rethinkdb_data/tmp
+2017-12-06T20:29:07.173071863 0.091417s notice: Initializing directory /home/zhanxu/work/NavApp/LibraryDB/rethinkdb_data
+2017-12-06T20:29:07.173846854 0.092188s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/zhanxu/work/NavApp/LibraryDB/rethinkdb_data' did not already exist or is empty.)
+2017-12-06T20:29:07.173869286 0.092210s notice: Running rethinkdb 2.3.6 (GCC 4.8.3)...
+2017-12-06T20:29:07.183939045 0.102281s notice: Running on Linux 3.10.0-693.5.2.el7.x86_64 x86_64
+2017-12-06T20:29:07.184551797 0.102892s notice: Loading data from directory /home/zhanxu/work/NavApp/LibraryDB/rethinkdb_data
+2017-12-06T20:29:07.235735203 0.154077s info: Automatically using cache size of 1134 MB
+2017-12-06T20:29:07.268719893 0.187061s error: TCP socket creation failed for port 29015: Address already in use.
+2017-12-06T20:29:43.420055661 0.048212s notice: Running rethinkdb 2.3.6 (GCC 4.8.3)...
+2017-12-06T20:29:43.423008665 0.051163s notice: Running on Linux 3.10.0-693.5.2.el7.x86_64 x86_64
+2017-12-06T20:29:43.423534907 0.051688s notice: Loading data from directory /home/zhanxu/work/NavApp/LibraryDB/rethinkdb_data
+2017-12-06T20:29:43.470923464 0.099078s info: Automatically using cache size of 1165 MB
+2017-12-06T20:29:43.504034263 0.132188s notice: Listening for intracluster connections on port 29015
+2017-12-06T20:29:43.506510808 0.134664s notice: Listening for client driver connections on port 28015
+2017-12-06T20:29:43.507370371 0.135524s notice: Listening for administrative HTTP connections on port 8080
+2017-12-06T20:29:43.507372504 0.135526s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-12-06T20:29:43.507374614 0.135528s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-12-06T20:29:43.507376189 0.135529s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-12-06T20:29:43.507378323 0.135532s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-12-06T20:29:43.507380336 0.135534s notice: Server ready, "localhost_localdomain_o9o" 422c50a0-339c-4cf3-960a-cb305d34c64a
+2017-12-06T20:30:02.493957786 19.122112s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2017-12-06T20:30:02.494268988 19.122423s notice: Shutting down client connections...
+2017-12-06T20:30:02.494409142 19.122563s notice: All client connections closed.
+2017-12-06T20:30:02.494413191 19.122567s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-12-06T20:30:02.494856959 19.123011s notice: Storage engine shut down.
+2017-12-06T20:30:07.687318663 0.009493s notice: Running rethinkdb 2.3.6 (GCC 4.8.3)...
+2017-12-06T20:30:07.691601273 0.013773s notice: Running on Linux 3.10.0-693.5.2.el7.x86_64 x86_64
+2017-12-06T20:30:07.692588834 0.014759s notice: Loading data from directory /home/zhanxu/work/NavApp/LibraryDB/rethinkdb_data
+2017-12-06T20:30:07.708734456 0.030906s info: Automatically using cache size of 1166 MB
+2017-12-06T20:30:07.710691263 0.032861s notice: Listening for intracluster connections on port 29015
+2017-12-06T20:30:07.716316854 0.038487s notice: Listening for client driver connections on port 28015
+2017-12-06T20:30:07.717082532 0.039252s notice: Listening for administrative HTTP connections on port 8080
+2017-12-06T20:30:07.717085041 0.039255s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-12-06T20:30:07.717087409 0.039257s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-12-06T20:30:07.717088584 0.039258s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-12-06T20:30:07.717090676 0.039260s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-12-06T20:30:07.717092695 0.039262s notice: Server ready, "localhost_localdomain_o9o" 422c50a0-339c-4cf3-960a-cb305d34c64a
+2017-12-06T21:35:29.061417265 0.025187s notice: Running rethinkdb 2.3.6 (GCC 4.8.3)...
+2017-12-06T21:35:29.117296639 0.081070s notice: Running on Linux 3.10.0-693.5.2.el7.x86_64 x86_64
+2017-12-06T21:35:29.119363617 0.083131s notice: Loading data from directory /home/zhanxu/work/NavApp/LibraryDB/rethinkdb_data
+2017-12-06T21:35:29.193631547 0.157400s info: Automatically using cache size of 1210 MB
+2017-12-06T21:35:29.195459606 0.159227s notice: Listening for intracluster connections on port 29015
+2017-12-06T21:35:29.220339404 0.184107s notice: Listening for client driver connections on port 28015
+2017-12-06T21:35:29.221324475 0.185092s notice: Listening for administrative HTTP connections on port 8080
+2017-12-06T21:35:29.221326224 0.185093s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-12-06T21:35:29.221328649 0.185096s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-12-06T21:35:29.221330113 0.185097s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-12-06T21:35:29.221332037 0.185099s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-12-06T21:35:29.221334001 0.185101s notice: Server ready, "localhost_localdomain_o9o" 422c50a0-339c-4cf3-960a-cb305d34c64a
+2017-12-06T21:35:34.769919559 5.733688s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2017-12-06T21:35:34.770200325 5.733968s notice: Shutting down client connections...
+2017-12-06T21:35:34.770318837 5.734086s notice: All client connections closed.
+2017-12-06T21:35:34.770323208 5.734091s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-12-06T21:35:34.770791947 5.734560s notice: Storage engine shut down.
+2017-12-06T21:35:38.855414175 0.007706s notice: Running rethinkdb 2.3.6 (GCC 4.8.3)...
+2017-12-06T21:35:38.860752493 0.013042s notice: Running on Linux 3.10.0-693.5.2.el7.x86_64 x86_64
+2017-12-06T21:35:38.861824890 0.014112s notice: Loading data from directory /home/zhanxu/work/NavApp/LibraryDB/rethinkdb_data
+2017-12-06T21:35:38.875158225 0.027447s info: Automatically using cache size of 1212 MB
+2017-12-06T21:35:38.875580032 0.027867s notice: Listening for intracluster connections on port 29015
+2017-12-06T21:35:38.877179811 0.029467s notice: Listening for client driver connections on port 28015
+2017-12-06T21:35:38.877273560 0.029561s notice: Listening for administrative HTTP connections on port 8080
+2017-12-06T21:35:38.877274989 0.029562s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-12-06T21:35:38.877276904 0.029564s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-12-06T21:35:38.877278244 0.029565s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-12-06T21:35:38.877280359 0.029568s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-12-06T21:35:38.877282226 0.029569s notice: Server ready, "localhost_localdomain_o9o" 422c50a0-339c-4cf3-960a-cb305d34c64a
+2017-12-06T21:35:45.658012931 6.810301s info: Table 80d25415-d80f-47d2-a8c1-4573662326e1: Starting a new Raft election for term 1.
+2017-12-06T21:35:45.659287439 6.811575s info: Table 80d25415-d80f-47d2-a8c1-4573662326e1: Added replica on this server.
+2017-12-06T21:35:45.659445860 6.811733s info: Table 80d25415-d80f-47d2-a8c1-4573662326e1: This server is Raft leader for term 1. Latest log index is 0.
+2017-12-06T21:36:01.556069208 22.708357s info: Table a4aa99e9-0df4-4eed-84c4-8d5e6dd10097: Starting a new Raft election for term 1.
+2017-12-06T21:36:01.713900245 22.866188s info: Table a4aa99e9-0df4-4eed-84c4-8d5e6dd10097: Added replica on this server.
+2017-12-06T21:36:01.714419512 22.866707s info: Table a4aa99e9-0df4-4eed-84c4-8d5e6dd10097: This server is Raft leader for term 1. Latest log index is 0.
+2017-12-06T21:36:15.911257756 37.063545s info: Table ce882ec4-20bd-4781-b2e8-d3e53b1b6b15: Starting a new Raft election for term 1.
+2017-12-06T21:36:15.911590471 37.063878s info: Table ce882ec4-20bd-4781-b2e8-d3e53b1b6b15: Added replica on this server.
+2017-12-06T21:36:15.912892602 37.065180s info: Table ce882ec4-20bd-4781-b2e8-d3e53b1b6b15: This server is Raft leader for term 1. Latest log index is 0.
+2017-12-06T21:36:46.335165452 67.487454s info: Table 3fb0427c-104a-4bbc-91e8-0fd8b1a66922: Starting a new Raft election for term 1.
+2017-12-06T21:36:46.360685879 67.512974s info: Table 3fb0427c-104a-4bbc-91e8-0fd8b1a66922: Added replica on this server.
+2017-12-06T21:36:46.362670112 67.514958s info: Table 3fb0427c-104a-4bbc-91e8-0fd8b1a66922: This server is Raft leader for term 1. Latest log index is 0.
+2017-12-06T21:37:25.974060657 107.126348s info: Table 92b2164c-6b76-4faf-8d44-9693e0044aab: Starting a new Raft election for term 1.
+2017-12-06T21:37:25.974217383 107.126505s info: Table 92b2164c-6b76-4faf-8d44-9693e0044aab: Added replica on this server.
+2017-12-06T21:37:25.975075687 107.127363s info: Table 92b2164c-6b76-4faf-8d44-9693e0044aab: This server is Raft leader for term 1. Latest log index is 0.
+2017-12-06T21:37:33.291419157 114.443707s info: Table cbc8b3e5-93fb-4230-9fa3-eb81dd4b379b: Starting a new Raft election for term 1.
+2017-12-06T21:37:33.292125087 114.444412s info: Table cbc8b3e5-93fb-4230-9fa3-eb81dd4b379b: Added replica on this server.
+2017-12-06T21:37:33.292570982 114.444858s info: Table cbc8b3e5-93fb-4230-9fa3-eb81dd4b379b: This server is Raft leader for term 1. Latest log index is 0.
+2017-12-06T21:38:13.891107634 155.043396s info: Table 223e326a-05bc-4e9e-9c95-f524ce2fefdf: Starting a new Raft election for term 1.
+2017-12-06T21:38:13.923080425 155.075368s info: Table 223e326a-05bc-4e9e-9c95-f524ce2fefdf: Added replica on this server.
+2017-12-06T21:38:13.923816970 155.076104s info: Table 223e326a-05bc-4e9e-9c95-f524ce2fefdf: This server is Raft leader for term 1. Latest log index is 0.
+2017-12-06T21:38:29.952299713 171.104587s info: Table dd05aaab-72a0-42a1-97a6-2093f3d86191: Starting a new Raft election for term 1.
+2017-12-06T21:38:29.952981920 171.105269s info: Table dd05aaab-72a0-42a1-97a6-2093f3d86191: Added replica on this server.
+2017-12-06T21:38:29.954015002 171.106302s info: Table dd05aaab-72a0-42a1-97a6-2093f3d86191: This server is Raft leader for term 1. Latest log index is 0.
+2017-12-06T21:39:18.678509571 219.830797s info: Table 225c5660-1e35-4799-8121-d4c084fcd394: Starting a new Raft election for term 1.
+2017-12-06T21:39:18.678805628 219.831093s info: Table 225c5660-1e35-4799-8121-d4c084fcd394: Added replica on this server.
+2017-12-06T21:39:18.680087647 219.832375s info: Table 225c5660-1e35-4799-8121-d4c084fcd394: This server is Raft leader for term 1. Latest log index is 0.
